@@ -1,0 +1,30 @@
+.project
+.metadata
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+.idea
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# PDT-specific
+.buildpath
+
+vendor/
+data/
+cache/
+composer.phar
+
+.DS_Store
+

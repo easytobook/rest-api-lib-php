@@ -1,0 +1,22 @@
+{
+  "name" : "easytobook/rest-api-lib-php",
+  "description": "Easytobook's PHP Library for REST APIs",
+  "keywords": ["easytobook", "hotels", "rest", "lib", "sdk"],
+  "type": "library",
+  "license": "Apache2",
+  
+  "require": {
+        "php": ">=5.3.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "ETB": "src/"
+        }
+    }    
+}
